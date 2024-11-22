@@ -38,6 +38,6 @@ Este repositório é pessoal, mas contribuições são bem-vindas! Caso tenha id
 ---
 
 ### 🧑‍💻 **Autor**  
-Feito com ❤️ por [Seu Nome](https://github.com/LeoJaques).  
+Feito com ❤️ por [Leonardo Jaques](https://github.com/LeoJaques).  
 
 ---

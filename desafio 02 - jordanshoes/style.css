@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --brand-color: #7ca2f4;
+
+    --dark: #121214;
+  
+    --gray: #f3f7ff;
+    --white: #ffffff;  
+
+    font-size: clamp(50%, 1vw, 62.5%); /*Os 62.5% é referente a escala da tela, assim para manter os ajustes de tamanho de fonte na escala de 10px para 1rem.*/
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    font-family: "Archivo", sans-serif;
+}
+
+.wrapper {
+    width: min(121.6rem, 100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frete-gratis {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4rem;
+    padding: 1.9rem;
+}
+
+
+header {
+    height: 40rem;
+    background-image: url('./assets/image/image-michael-jordan.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+header > div {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+header .jordan-logo {
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+header .jordan-logo img {
+    width: auto; 
+    height: 100%; 
+}
+
+
+header h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.482rem;
+    margin-bottom: 2rem;
+}
+
+header p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.36rem;
+}
+
+
+.main-text {
+    padding: 8rem 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.main-text h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 3.482rem;  
+}
+
+.main-text p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.36rem;  
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+}
+
+.tenis-lista {
+    columns: 3 30rem;
+}
+
+
+.tenis-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+}
+
+.tenis-image {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray);
+}
+.tenis-image img {
+    width: 58%; 
+
+}
+
+.tenis-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.modelo-tenis {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.34rem;
+}
+
+.marca-tenis {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.741rem;
+    color: var(--brand-color);
+}
+
+.preco-tenis {
+    font-family: 'Space Grotesk';
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.552rem;
+}
+
+/* MEDIAS QUERY */
+@media (max-width: 1300px) { 
+    .wrapper {
+        padding: 0 2.4rem;
+    }
+}
+@media (max-width: 768px) { 
+    header {
+        height: 35rem;
+        background-position: center top;
+        background-size: cover;
+    }
+
+}

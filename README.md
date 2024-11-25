@@ -38,6 +38,10 @@ Este repositório é pessoal, mas contribuições são bem-vindas! Caso tenha id
 ---
 ## 🖥 **Demostração**
 [Desafio 01 - Blog](https://leojaques.github.io/desafios_frontend/desafio%2001%20-%20blog/index.html)
+
+[Desafio 02 - JordanShoes](https://leojaques.github.io/desafios_frontend/desafio%2002%20-%20jordanshoes/index.html)
+
+
 ---
 
 ### 🧑‍💻 **Autor**  
